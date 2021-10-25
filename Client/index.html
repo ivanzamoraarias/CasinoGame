@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+</head>
+
+<body>
+    <audio id="rollAudio">
+        <source src="assets/sounds/beep.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="pressAudio">
+        <source src="assets/sounds/press.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="loseAudio">
+        <source src="http://peal.io/download/j2ui0">
+    </audio>
+    <audio id="winAudio">
+        <source src="http://peal.io/download/eust3">
+    </audio>
+    <canvas 
+        id="canvas" 
+        width="2000" 
+        height="700" 
+        style="z-index: 1;
+        position: absolute;"
+        >
+    </canvas>
+    <canvas 
+        id="canvasShowResult" 
+        width="400" 
+        height="400" 
+        style="z-index: 100;
+        position: relative;
+        margin-left: 30%;
+        margin-top: 10%;
+        border-radius: 48% 7%;"
+        >
+    </canvas>
+
+    <script src="index.js"></script>
+</body>
+
+
+</html>
